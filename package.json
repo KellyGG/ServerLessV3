@@ -1,0 +1,18 @@
+{
+  "name": "testserverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha **/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "serverless": "^1.43.0",
+    "serverless-offline": "^4.10.6"
+  }
+  
+}
