@@ -13,6 +13,11 @@
     "mocha": "^6.1.4",
     "serverless": "^1.43.0",
     "serverless-offline": "^4.10.6"
+  },
+  "dependencies": {
+    "attestation-agency-sdk": "^1.5.5",
+    "aws-sdk": "^2.463.0",
+    "axios": "^0.18.0",
+    "dateformat": "^3.0.3"
   }
-  
 }
