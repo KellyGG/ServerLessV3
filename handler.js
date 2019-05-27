@@ -5,6 +5,7 @@ var dateFormat = require('dateformat');
 var AWS = require('aws-sdk');
 
 module.exports.hello = async (event) => {
+  console.log('test' );
   return {
     statusCode: 200,
     body: JSON.stringify({
